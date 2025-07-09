@@ -2,7 +2,6 @@ import React from "react";
 import "./App.css";
 import Home from "./components/Home";
 import Notice from "./components/Notice";
-import Club from "./components/Club";
 import Contact from "./components/Contact";
 
 function App() {
@@ -18,10 +17,6 @@ function App() {
 
       <section id="notice">
         <Notice />
-      </section>
-
-      <section id="club">
-        <Club />
       </section>
 
       <section id="contact">
