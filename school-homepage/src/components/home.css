@@ -33,3 +33,19 @@
     z-index: 1;
     color: white;
 }
+
+button {
+    background-color: #00b894;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #019175;
+}
