@@ -1,0 +1,35 @@
+.logo {
+    filter: grayscale(1) brightness(0) invert(1);
+}
+
+.background {
+    position: relative;
+    background-image: url('https://apply.gbsw.hs.kr/src/newImage/main-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.bg-overlay {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5); /* 진한 검정 틴트 */
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    text-align: center;
+    z-index: 1;
+}
+
+.nav {
+    position: relative;
+    z-index: 1;
+}
+
+.main {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
